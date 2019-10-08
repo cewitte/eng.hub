@@ -1,0 +1,32 @@
+manager: Carlos Witte
+teamroom: Eng.DevSpacesImport
+direct reports: 4
+ICs:
+    - IC: 
+        IC name: https://jira.devfactory.com/browse/DVSPIMP-4867
+        date: 2019-10-08
+        unit: https://jira.devfactory.com/browse/DVSPIMP-3578
+        coaching: Please make sure that all the Sub-Tasks are resolved before moving the ticket to Done status because this prevents us from closing the weekly Sprint. Besides, someone without repository access wouldn't know that the Pull Request has been merged.
+        perfrormanceAssessment: lowPerformer # source: XO's Rank & Review
+        continueCoaching: true
+    - IC: 
+        IC name: Pinkal Vansia
+        date: 2019-10-08
+        unit: https://jira.devfactory.com/browse/JCLDALL-28711
+        coaching: Clean and objective DevSpaces onboarding documentaton. I like that you tagged the Navigator to inform him when the ticket was moved to Done. The only warning from the QE Review was unavoidable because this onboarding is about building and testing, being a library it could not be ran. Thus, passed QE with honors. Your tickets are becoming role models for the team. Good job.
+        perfrormanceAssessment: highPerformer # source: XO's Rank & Review
+        continueCoaching: true
+    - IC: 
+        IC name: Rafael Bogaveev
+        date: 2019-10-08
+        unit: https://jira.devfactory.com/browse/SLIAO-6917
+        coaching: You are not making too much effort to have a clear communication in your tickets. This ticket is lacking context and a better explanation of decisions, e.g. external stakeholders will not understand the reasons for the following statement - 'no affect by absence of devspaces private registry feature' (reproduced as written, with all typos.
+        perfrormanceAssessment: highPerformer # source: XO's Rank & Review
+        continueCoaching: true
+    - IC: 
+        IC name: Stefan Stanca
+        date: 2019-10-08
+        unit: https://jira.devfactory.com/browse/SLIAO-6969
+        coaching: Decision history improved considerably in clarity, further decisions on Pull Request reviews are clearly explained and the PCA is tagged for transparency. QE Review is still raising some quality flags in your tickets. It's enough to pass QE Review, but you should be aware that your colleagues are not being flagged for similar issues, thus it seems to be something on your side.
+        perfrormanceAssessment: lowPerformer # source: XO's Rank & Review
+        continueCoaching: true

@@ -1,0 +1,11 @@
+manager: Carlos Witte
+teamroom: Eng.DevSpacesImport.QE
+direct reports: 1
+ICs: 
+    - IC: 
+        IC name: Otávio Calaça Xavier
+        date: 2019-10-08
+        unit: https://jira.devfactory.com/browse/SLIAO-7741
+        coaching: The QE Review process is very well documented in the Import ticket when QEPA (QE Process Automation) runs, with review logs posted as comments in the tickets. Colors are being very well used to communicate issues' severity. However, QE's own tickets are empty, they are simply opened and then closed when the review is done - empty tickets look bad and might give a false impression to anyone who is not familiar with the process. QE Review should set the example when it comes to quality, so we should think about some valuable data to add to QE's own tickets to better document the QE Review process. Also strangely is the fact that the desctiption from Import's ticket is being copied to QE's ticket, which doesn't make much sense.
+        perfrormanceAssessment: highPerformer # no rank info in R&R, but he is above the metric target
+        continueCoaching: true

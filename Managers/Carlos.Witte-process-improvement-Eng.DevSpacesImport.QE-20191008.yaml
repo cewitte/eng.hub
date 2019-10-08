@@ -1,0 +1,13 @@
+manager: Carlos Witte
+teamroom: Eng.DevSpacesImport.QE
+units: 
+    - unit: https://jira.devfactory.com/issues/?filter=94040
+recomnmendation: 
+    eliminate waste: true 
+    improve quality bar: true 
+    product agnostic: true
+    product specific: 
+        - product name: null 
+    description: Review IPA (Import Process Automation tool) and QEPA (QE Review Automation tool) tasks during the next TMS exercise. Our goal is to eliminate inneficiencies from the process in order to achieve a 30.2% CpU improvement by the EoQ4.
+    effort: 20 # 20 days max duration to go though the whole process of collecting data, meetings and presentation of results and outcomes.
+    impact: 30.20 # this is the T4W CpU improvement expected in Q4, from $358 in Q3 to $250 in Q4

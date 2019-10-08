@@ -1,0 +1,11 @@
+manager: Carlos Witte
+teamroom: Eng.DevSpacesImport
+units: 
+    - unit: https://jira.devfactory.com/issues/?filter=94041
+automation: 
+    product agnostic: true
+    product specific: 
+        - product name: DevFactory DevSpaces
+    description: Create a plugin to hide DevSpaces overhead from developers and improve their experience. We are willing to make DevSpaces easier to use and allow developers to build, test and run their onboarded products at the click of a button in at least one code editor or IDE - IntelliJ or VSCode. Our goal is to increase DevSpaces usage.
+    effort: 61 # 61 days (duration) to investigate possibilities
+    impact: 5.00 # this should save about 5% of the time from developers (not much), but ease the transition to DevSpaces

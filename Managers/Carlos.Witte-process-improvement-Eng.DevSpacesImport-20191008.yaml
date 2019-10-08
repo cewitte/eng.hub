@@ -1,0 +1,13 @@
+manager: Carlos Witte
+teamroom: Eng.DevSpacesImport
+units: 
+    - unit: https://jira.devfactory.com/issues/?filter=94041
+recomnmendation: 
+    eliminate waste: false 
+    improve quality bar: true 
+    product agnostic: true
+    product specific: 
+        - product name: null 
+    description: Improve our JQLs in the Engineering Systems Metrics spreadsheet, XO's Metrics App and other automatad spreadsheets to prevent major metrics impacts when wrong transitions are performed (as happened during the weekend), e.g. from Jira status Done (resolved) to Jira status Closed (also resolved) because the orders were cancelled.
+    effort: 2 # 2 days between fixing JQL, submit ticket to revert transitions and fix metrics data
+    impact: 7.50 # 3 hours (from 40 hours week) are necessary to fix mistakes caused by wrong transitions
