@@ -1,0 +1,11 @@
+manager: Carlos Witte
+teamroom: Eng.DevSpacesImport.QE
+direct reports: 1
+ICs: 
+    - IC: 
+        IC name: Otávio Calaça Xavier
+        date: 20191014
+        unit: https://jira.devfactory.com/browse/SLIAO-7865?filter=89414
+        coaching: This is the first ticket I reviewed that required a QE Reviewer verdict after QEPA - QE Process Automation automated review runs. It seems Otavio got it right, it's very clear what has been done. Another thing that we might use is the Dates section on the right side of the ticket. It saves dates and times of each operation. I'll bring that up in our next daily Check-In Chat whether we can improve on that and measure import and review times (duration). Those might help our future Time Motion Studies.
+        perfrormanceAssessment: averagePerformer # no rank info in R&R
+        continueCoaching: true

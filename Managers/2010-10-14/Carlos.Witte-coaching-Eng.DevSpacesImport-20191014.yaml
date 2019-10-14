@@ -1,0 +1,32 @@
+manager: Carlos Witte
+teamroom: Eng.DevSpacesImport
+direct reports: 4
+ICs:
+    - IC: 
+        IC name: David Popiashvili
+        date: 20191014
+        unit: https://jira.devfactory.com/browse/DVSPIMP-4119
+        coaching: We cannot close DVSP Import Week 41's Sprint in Jira because the sub-ticket https://jira.devfactory.com/browse/DVSPIMP-4157 remains unresolved. You can close the sub-ticket yourself (provided the Pull Request has been merged) if the PCA forgot it, just write in the comments what you are doing and why.
+        perfrormanceAssessment: lowPerformer # source: XO's Rank & Review. Note: David's T4W units decreased due to vacation.
+        continueCoaching: true
+    - IC: 
+        IC name: Pinkal Vansia
+        date: 20191014
+        unit: https://jira.devfactory.com/browse/TBGTM-7097?focusedCommentId=4651929&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-4651929
+        coaching: Pinkal is the team's role model when it comes to documentation in the tickets. However, this comment in particular could be improved. I would have made more clear to Yuriy Kostiv that the Import Order Wizard failed in capturing this IQB issue. This order should not have reached us in the first place. We are entering a new phase in our CpU goals where every dollar counts, lost time will cost us more and more. Another issue (probably IOW's fault as well) in this ticket is the wrong reporter. We are trying to make IPA - Import Order Automation to correct those issues automatically to make the tickets comply with our Jira conventions.
+        perfrormanceAssessment: highPerformer # source: XO's Rank & Review
+        continueCoaching: true
+    - IC: 
+        IC name: Rafael Bogaveev
+        date: 20191014
+        unit: null
+        coaching: vacation #Rafel was OoO on week 41
+        perfrormanceAssessment: highPerformer # source: XO's Rank & Review
+        continueCoaching: true
+    - IC: 
+        IC name: Stefan Stanca
+        date: 20191014
+        unit: https://jira.devfactory.com/browse/SLIAO-7821
+        coaching: Ticket comments have improved a lot, the "Decision History" is relevant and clear helping to understand the choices made. Just better be aware of the quality issues reported by QEPA, even if they are minor issues. Having achieved our automation level, CAs are ultimately responsible to deliver with perfect quality. Another small thing, but it's appearing for the 2nd time':' a double space between the maintainer first and last names in the Dockerfile. It's probably wrong in the template you are using for your tickets, thus easy to fix.
+        perfrormanceAssessment: averagePerformer # source: XO's Rank & Review
+        continueCoaching: true
