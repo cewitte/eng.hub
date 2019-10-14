@@ -1,0 +1,13 @@
+manager: Carlos Witte
+teamroom: Eng.DevSpacesImport.QE
+units: 
+    - unit: https://jira.devfactory.com/issues/?filter=94040 # number of reviews
+recomnmendation: 
+    eliminate waste: true 
+    improve quality bar: false 
+    product agnostic: true
+    product specific: 
+        - product name: null 
+    description: QE tickets have a copy of the Feasibility Check table. The table is not relevant anymore for tickets coming through the Import Order Wizard and I suspect we cannot trust the table data, because no one is verifying that anymore. Next week during the Weekly Productivity Meeting, I'll ask the whole team to stop adding the table to both Jira issue types, Import and QE, but especially QE where it is definitely not relevant. Table example in the review ticket description - https://jira.devfactory.com/browse/SLIAO-7841?filter=94040
+    effort: 1 # Less than a day to discuss with the team in the next Weekly Productivity Meeting and make necessary changes to automated processes and tools.
+    impact: 1.00 # impact is minimal, but actual effort is also small and this kind of housekeeping is needed eventually.

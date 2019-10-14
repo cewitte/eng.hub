@@ -1,0 +1,11 @@
+manager: Carlos Witte
+teamroom: Eng.DevSpacesImport.QE
+direct reports: 1
+ICs: 
+    - IC: 
+        IC name: Otávio Calaça Xavier
+        date: 2019-10-09
+        unit: https://jira.devfactory.com/browse/JCLDALL-35966?focusedCommentId=4566671&page=com.atlassian.jira.plugin.system.issuetabpanels%3Acomment-tabpanel#comment-4566671
+        coaching: It's good to see that QE tickets won't be empty anymore. I understand that the relevant information goes in the parent Import ticket and that duplicating the information would not add any value, therefore I don't think there is much more relevant information to be added other than what you've added. I would just add "QEPA is closing this ticket automatically" to make clear that the review was completed by the automation tool and not the QE Reviewer himself.
+        perfrormanceAssessment: highPerformer # no rank info in R&R, but he is above the metric target
+        continueCoaching: true

@@ -1,0 +1,11 @@
+manager: Carlos Witte
+teamroom: Eng.DevSpacesImport
+units: 
+    - unit: https://jira.devfactory.com/issues/?filter=94041
+automation: 
+    product agnostic: true
+    product specific: 
+        - product name: null
+    description: Our Jira tickets are created automatically by Devhub's Import Order Wizard, but sometimes we receive them with invalid data in some Jira fields, like a wrong Reporter or Verifier. Today, the fixes are being done manually by our CAs, but their hourly rate it too expensive. Therefore, our CA Otavio Calaca Xavier will Update our automation tool - IPA - Import Process Automation - on week 41 to fix these issues automatically according to our team's Jira conventions.
+    effort: 1 # Actually, less than a day, only 3 hours to update IPA.
+    impact: Eliminate 40 minutes of manual work from PCAs every week or $133.60 dollars of manual work x week ($6,947.20 a year)

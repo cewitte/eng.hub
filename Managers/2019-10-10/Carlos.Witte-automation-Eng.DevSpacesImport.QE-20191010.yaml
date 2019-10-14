@@ -1,0 +1,11 @@
+manager: Carlos Witte
+teamroom: Eng.DevSpacesImport.QE
+units: 
+    - unit: https://jira.devfactory.com/issues/?filter=94040
+automation: 
+    product agnostic: true
+    product specific: 
+        - product name: null
+    description: Our QE created an automated review tool called QEPA (QE Process Automation), that automatically verifies each item of our quality checks. Due to the ambiguous nature of some review items, QEPA is currently able to automatically approve (or reject) up to severity level 2 of quality issues. All higher severity levels require the QE Reviewer's final verdict for either rejection or approval. Our ultimate goal is to automatically approve or reject everything without human intervention, thus we are gradually increasing the approval/rejection threshold as we feel more confident in QEPA's habilities. This entry is to increase QEPA's automated approvals to severity level 3. More info on the QEPA Thresholds definition can be obtained here':'https://docs.google.com/document/d/118zIx73sPf3CQPw9HP_TGD5DXBlRkjXYxgX57oRx2Ws/edit#heading=h.vticvppgafpj (please request access if needed). This change should be effective by the end of week 41.
+    effort: 7 # 7 days to experiment with levels 1 and 2 of automated reviews and 1 day to improve QEPA to severity level 3 of automatic approval
+    impact: 25% of tickets will be reviewed automatically without the QE Reviewer's intervention. This should save about $83 week or $4,333 per year of manual work eliminated.

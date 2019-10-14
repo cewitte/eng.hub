@@ -1,0 +1,32 @@
+manager: Carlos Witte
+teamroom: Eng.DevSpacesImport
+direct reports: 4
+ICs:
+    - IC: 
+        IC name: David Popiashvili
+        date: 2019-10-09
+        unit: https://jira.devfactory.com/browse/SCLOOPW-10030
+        coaching: I know you just returned from your vacation, but this ticket is one of our priorities and it has been blocked since September 26th waiting for an answer from the PCA. Please don't wait so much to escalate these issues. Besides raising an Eng.Problem ticket to the PCA, we have to inform Yuriy Kostiv that Devhub's Import Order Wizard failed to catch the broken build script. Let's unblock this ticket or close it with the proper explanation to stakeholders in the comments.
+        perfrormanceAssessment: lowPerformer # source: XO's Rank & Review. Note: David's T4W units decreased due to vacation.
+        continueCoaching: true
+    - IC: 
+        IC name: Pinkal Vansia
+        date: 2019-10-09
+        unit: https://jira.devfactory.com/browse/JCLDALL-34549
+        coaching: Even though it is a minor thing that does not prevent QE approval, the required grouping of commands by type in the dockerfile should not be overlooked. With the high degree of automation that we have now, the CA is left with the sole responsibility of reviewing and optimizing deliverable items like the dockerfile, thus CAs are expected to strive for perfection. Please, let's seek a perfect quality at all times.
+        perfrormanceAssessment: highPerformer # source: XO's Rank & Review
+        continueCoaching: true
+    - IC: 
+        IC name: Rafael Bogaveev
+        date: 2019-10-09
+        unit: null
+        coaching: vacation
+        perfrormanceAssessment: highPerformer # source: XO's Rank & Review
+        continueCoaching: true
+    - IC: 
+        IC name: Stefan Stanca
+        date: 2019-10-09
+        unit: https://jira.devfactory.com/browse/SLIAO-7813
+        coaching: The quality of the ticket comments improved a lot. I really appreciate the clarity of the the Decision History. It's also good to see that you have passed QE with perfect quality and zero issues found. Good job!
+        perfrormanceAssessment: averagePerformer
+        continueCoaching: true

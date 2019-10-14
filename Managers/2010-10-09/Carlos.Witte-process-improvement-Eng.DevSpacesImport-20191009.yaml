@@ -1,0 +1,13 @@
+manager: Carlos Witte
+teamroom: Eng.DevSpacesImport
+units: 
+    - unit: https://jira.devfactory.com/issues/?filter=94041 # number of import to DevSpaces
+recomnmendation: 
+    eliminate waste: true 
+    improve quality bar: false 
+    product agnostic: true
+    product specific: 
+        - product name: null 
+    description: Let's remove the Feasibility Check table and values from the description, at least for orders coming through the IOW - Import Order Wizard. It's not relevant anymore now that we are receiving the importOrder.yaml with all the information suposedly validated already. I also suspect that the info in the table might not have been verified, because no one cares for it anymore (since IOW). I'll ask the whole team to stop adding the table to our tickets next week during the Weekly Productivity Meeting. Table example in the ticket description - https://jira.devfactory.com/browse/TBGTM-6456
+    effort: 1 # Less than a day to discuss with the team in the next Weekly Productivity Meeting and make necessary changes to automated processes and tools.
+    impact: 1.00 # impact is minimal, but actual effort is also small and this kind of housekeeping is needed eventually.

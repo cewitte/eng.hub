@@ -1,0 +1,11 @@
+manager: Carlos Witte
+teamroom: Eng.DevSpacesImport.QE
+direct reports: 1
+ICs: 
+    - IC: 
+        IC name: Otávio Calaça Xavier
+        date: 2019-10-10
+        unit: https://jira.devfactory.com/browse/SLIAO-7835
+        coaching: Good to see the QE Review tickets are not empty anymore with relevant information being posted in the comments. It is now clear whether the review was automatically done by QEPA (QE Process Automation) or the QE Reviewer gave the final verdict. Now we should work on removing the no longer needed Feasibility Check table.
+        perfrormanceAssessment: highPerformer # no rank info in R&R, but he has been above the metric target
+        continueCoaching: true

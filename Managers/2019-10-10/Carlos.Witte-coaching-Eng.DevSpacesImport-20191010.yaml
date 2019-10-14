@@ -1,0 +1,32 @@
+manager: Carlos Witte
+teamroom: Eng.DevSpacesImport
+direct reports: 4
+ICs:
+    - IC: 
+        IC name: David Popiashvili
+        date: 2019-10-10
+        unit: https://jira.devfactory.com/browse/SLIAO-7694
+        coaching: Very good QE Review with no issues found and impecable quality of deliverable items - Dockerfile, README.md, devspaces.yml and k8s.yml -, but the ticket comment that says "Note':' This is an IOW order" is not informative. It doesn't add much value to an external stakeholder in a sense that if the stakeholder knows what IOW (Import Order Wizard) is, he will know it just by reading the description, making the comment irrelevant. It he doesn't know what IOW is, the information is meaningless. Before adding our comments, let's pretend an external customer is reading it and he should understand the order history without having to ask any questions.
+        perfrormanceAssessment: lowPerformer # source: XO's Rank & Review. Note: David's T4W units decreased due to vacation.
+        continueCoaching: true
+    - IC: 
+        IC name: Pinkal Vansia
+        date: 2019-10-10
+        unit: https://github.com/trilogy-group/jive-analytics-processors/blob/master/devspaces/Dockerfile
+        coaching: All the contents in your deliverable items have impecable quality. The written communication is clear and objective leaving no margin for misinterpretations. However, there might be a mistake in the comments before the RUN command in the Dockerfile - Install essential tools on Red Hat like Linux - this "like" shouldn't be there. It's a small issue that does not affect the DevSpace delivery, of course, but please check your templates because this typo might be appearing in every Red Hat Linux order and a little mistake multiplied by a 100 will become big. I'm probably being a little picky this time, but it's all in the name of a perfect quality.
+        perfrormanceAssessment: highPerformer # source: XO's Rank & Review
+        continueCoaching: true
+    - IC: 
+        IC name: Rafael Bogaveev
+        date: 2019-10-10
+        unit: null
+        coaching: vacation
+        perfrormanceAssessment: highPerformer # source: XO's Rank & Review
+        continueCoaching: true
+    - IC: 
+        IC name: Stefan Stanca
+        date: 2019-10-10
+        unit: https://jira.devfactory.com/browse/SLIAO-7814
+        coaching: Much improvement in the ticket's documentation. Decision History is clear and concise. QE review with no issues found. All deliverable items submitted in the Pull Request have top quality and follow our standards. The only issue I could find in the Dockerfile was a double space between the maintainer's first and last name. 
+        perfrormanceAssessment: averagePerformer
+        continueCoaching: true
