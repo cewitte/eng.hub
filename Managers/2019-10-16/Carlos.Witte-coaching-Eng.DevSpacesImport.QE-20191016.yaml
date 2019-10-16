@@ -1,0 +1,11 @@
+manager: Carlos Witte
+teamroom: Eng.DevSpacesImport.QE
+direct reports: 1
+ICs: 
+    - IC: 
+        IC name: Otávio Calaça Xavier
+        date: 20191016
+        unit: https://jira.devfactory.com/browse/SLIAO-7899
+        coaching: One thing that looks weird to me is why some review tickets have the Feasibility Check table and others don't. Is there a criteria that QEPA (QE Process Automation) uses or could this be a version thing? Maybe a bug? I have no issues whatsoever about the process or the ticket, both are great, but we have to make a definitive decision about this table, which seems to be outdated and appearing randomly. My perception might be wrong, let's clarify. 
+        perfrormanceAssessment: averagePerformer # no rank info in R&R
+        continueCoaching: true

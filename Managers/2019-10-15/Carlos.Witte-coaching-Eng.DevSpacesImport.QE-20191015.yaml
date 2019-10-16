@@ -1,0 +1,11 @@
+manager: Carlos Witte
+teamroom: Eng.DevSpacesImport.QE
+direct reports: 1
+ICs: 
+    - IC: 
+        IC name: Otávio Calaça Xavier
+        date: 20191015
+        unit: https://jira.devfactory.com/browse/JCLDALL-36661
+        coaching: There isn't much to be added here since most part of the review process is automated. We just need to set a date for when we will remove the Feasibility Check table for good. Not a big issue though, quality of QE Reviews are top notch (as they should be).
+        perfrormanceAssessment: averagePerformer # no rank info in R&R
+        continueCoaching: true

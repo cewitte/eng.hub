@@ -1,0 +1,13 @@
+manager: Carlos Witte
+teamroom: Eng.DevSpacesImport
+units: 
+    - unit: https://jira.devfactory.com/issues/?filter=94041 # number of imports to DevSpaces
+recomnmendation: 
+    eliminate waste: true 
+    improve quality bar: true 
+    product agnostic: true
+    product specific: 
+        - product name: null 
+    description: Following Rahul Subramaniam's command, DevSpaces is supposed to work only within the new automated CI/CD Process, commonly known as DevHub. However, Devhub lacks support for Windows at the moment, so we left an opening in our Playbook to allow Windows orders to be processed through our old, manual DevSpaces Import process, which takes much longer to complete - days instead of hours - and is much more error prone. Besides, CNU Windows DevSpaces is a product in alpha stage, thus extremely unreliable, e.g. it's been offline since September 20th with no ETA for recovery. Hence, following a decision made at DevSpaces and Devhub VP level during a meeting today, we will improve our process to disallow Windows orders to be submitted through the old process. Since Windows is not yet supported, internal Windows products will wait "in the parking lot" until Windows is fully supported in a reliable way. The only exception allowed will be for external customers (e.g. Upland) due to its strategic nature, but Windows orders from external customers are extremely rare, but even for those cases we will offer Docker CLI as an alternative for the currently unreliable CNU Windows DevSpaces. The action to be taken is modifying DevSpaces Import's Playbook. Carlos Witte will be in charge of this change, that is supposed to happen until the end of week 43, 2019.
+    effort: 1 # Less than one business day to update the Playbook and make the new process official
+    impact: 380.00 # Rationale: with the old, manual process it takes 3 days to complete an order. With the new automated, DevHub integrated process, we can complete the same order in about 5 hours. The cost difference between the two is 380% less with the new process, reducing the cost of an import from $1,200 (3 days of a CA @ $50 an hour) to $250 (5 hours of a CA). Note: QE costs were not computed, but should add only about $5 to each unit, if that much.

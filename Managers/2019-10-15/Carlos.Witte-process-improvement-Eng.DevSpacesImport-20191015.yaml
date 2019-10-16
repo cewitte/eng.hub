@@ -1,0 +1,13 @@
+manager: Carlos Witte
+teamroom: Eng.DevSpacesImport
+units: 
+    - unit: https://jira.devfactory.com/issues/?filter=94041 # number of imports to DevSpaces
+recomnmendation: 
+    eliminate waste: true 
+    improve quality bar: false 
+    product agnostic: true
+    product specific: 
+        - product name: null 
+    description: Our Jira Board filter assumes that all of our Jira tickets should be opened with Jira user cwitte as the Reporter, otherwise it will not be shown in the backlog nor the Sprints. This is causing some confusion during our Sprint planning, because PCAs sometimes open the tickets with their own names in the Reporter field and our team is not always aware of this. It causes the tickets that I assign to them to not show in the weekly Sprint. I will ask Otávio Calaça Xavier, our Jira board maintainer to change the filter to show tickets with any Reporter in our board until the end of the week. However, before he does that I should do some housekeeping to remove very old tickets that have been left by past DevSpaces teams, so they will not appear in our Jira board as valid backlog. Having cwitte as the Reporter was the solution that Otavio found to filter out the old tickets.
+    effort: 1 # Less than a day actually, a couple of hours to remove old tickets
+    impact: 0.89 # removing 30 minutes of wasted time to fix (change) ticket's Reporter field every week should improve the CpU in 89 cents weekly. Not much, but a necessary housekeeping to be done to avoid further mistakes during the weekly Sprint planning

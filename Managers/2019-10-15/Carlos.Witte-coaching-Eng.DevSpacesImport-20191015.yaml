@@ -1,0 +1,32 @@
+manager: Carlos Witte
+teamroom: Eng.DevSpacesImport
+direct reports: 4
+ICs:
+    - IC: 
+        IC name: David Popiashvili
+        date: 20191015
+        unit: https://jira.devfactory.com/browse/SLIAO-7876
+        coaching: The ticket has been placed in Blocked Jira state because the build script is failing. The report on the issue is well done, but Yuriy Kostiv is not tagged in the comments as he should be. It's very important to let Yuriy know of such cases because the DevHub team thinks the Import Order Wizard is capturing issues like that and preventing the order to be created, that is, if the order does not pass our IQB, the Import Order Wizard should not allow it to be submitted, thus eliminating the Feasibility Check part of our process. This case shows this is not true, we still have to perform the Feasibility Check by ourselves, because IOW is not performing all the checks in our IQB.
+        perfrormanceAssessment: lowPerformer # source: XO's Rank & Review. Note: David's T4W units decreased due to vacation.
+        continueCoaching: true
+    - IC: 
+        IC name: Pinkal Vansia
+        date: 20191015
+        unit: https://jira.devfactory.com/browse/JCLDALL-36297
+        coaching: The documentation and deliverables are looking really good, but there is a transition that should have been better documented. We start saying in the comments that we might need to close this ticket due to a broken schema in the importOrder.yaml followed by warning and escalations. So far so good. But then we see our automation (IPA) running with successfully only two days later. What happened in between? Did the PCA fix the importOrder.yaml? A new one was submitted? Pinkal fixed it himself? We want our tickets to be a knowledge base, a future reference for each import. This case specifically might be useful in the future, for instance, we might adopt the same solution used here without having to escalate and involve so many people.
+        perfrormanceAssessment: highPerformer # source: XO's Rank & Review
+        continueCoaching: true
+    - IC: 
+        IC name: Rafael Bogaveev
+        date: 20191015
+        unit: https://jira.devfactory.com/browse/SLIAO-7882
+        coaching: Great quality and deliverable items all looking very good. The "Decision History comments" can be improved though, we have to always imagine that an external stakeholder might be reading our comments and whether he would understand what's in there':'' "put some config files and installed some dev tools" looks a bit lazy. We either remove "some" (implying all necessary) or list the mentioned tools and files, maybe even add a link to them if it's a long list. 
+        perfrormanceAssessment: averagePerformer # source: XO's Rank & Review
+        continueCoaching: true
+    - IC: 
+        IC name: Stefan Stanca
+        date: 20191015
+        unit: https://jira.devfactory.com/browse/SLIAO-7831
+        coaching: I like that Stefan tagged the PSEM in the decision history where it says the Pull Request review will be delegated to our QE (note':' I just don't understand why Otavio was not tagged as well, but OK, not necessary). It adds transparency to the process, maybe we should make this a norm. Some minor quality issues in the QE report, which is something we should avoid at all cost. With our degree of automation, a perfect quality is expected from us. CAs are expected to do less tasks - basically reviewing and optimizing deliverables items - and do them really well. 
+        perfrormanceAssessment: averagePerformer # source: XO's Rank & Review
+        continueCoaching: true

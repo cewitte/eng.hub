@@ -1,0 +1,32 @@
+manager: Carlos Witte
+teamroom: Eng.DevSpacesImport
+direct reports: 4
+ICs:
+    - IC: 
+        IC name: David Popiashvili
+        date: 20191016
+        unit: https://jira.devfactory.com/browse/SCLOOPW-10088
+        coaching: We are trying to make our tickets a knowledge base for our imports. In many occasions, we've been asked why an order was closed and we had to ask around and count on people's good memory to retrieve the information. That's a sign of an immature process, which is not our case I am sure. Now, on this ticket. It's not empty, which is good, but I know for a fact that some important decisions are being left in chats, like the one where the PSEM Diego Lima cleary says the PCA Peter Escamilla will not be available for tasks other than his queue until mid November. I don't mean we need to expose people by pasting screenshots of private chats into tickets, but we should at least add comments in the ticket stating the issue. This information alone could justify why a ticket is blocked beyond our control or provide enough data for us to make a decision to cancel it.
+        perfrormanceAssessment: lowPerformer # source: XO's Rank & Review. Note: David's T4W units decreased due to vacation.
+        continueCoaching: true
+    - IC: 
+        IC name: Pinkal Vansia
+        date: 20191016
+        unit: https://jira.devfactory.com/browse/JCLDALL-36410?focusedCommentId=4613470&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-4613470
+        coaching: During a meeting today, I asked Yuriy Kostiv if we should continue reporting (or escalating) issues in the importOrder.yaml and said yes, because he is collecting all the IOW issues in a spreadsheet to file bug reports to the team. Thus, please feel free to tag Yuriy directly in such cases. He is doing a great job in making the Devhub process work smoothly.
+        perfrormanceAssessment: highPerformer # source: XO's Rank & Review
+        continueCoaching: true
+    - IC: 
+        IC name: Rafael Bogaveev
+        date: 20191016
+        unit: https://jira.devfactory.com/browse/SLIAO-7883
+        coaching: You were the first to properly format the "Decision History" properly in the tickets, but sometimes your decisions - like this one ':'"Order was prepared by IPA. First 2 runs were before running Prepare. Needed to run everything from scratch." - are not clear for external stakeholders. We should work in improving that by always asking ourselves':' if another team audits this ticket a year from now, will they be able to understand what is written in the comments? Our decisions? The DevSpaces Import Process E2E? I know it sometimes is a lot of work, but our import process is almost fully automated and our CAs have been left with exactly this part of reviewing and optimizing everything to achieve an outstanding quality, which also means creating a role model knowledge base of our work.
+        perfrormanceAssessment: averagePerformer # source: XO's Rank & Review
+        continueCoaching: true
+    - IC: 
+        IC name: Stefan Stanca
+        date: 20191016
+        unit: https://jira.devfactory.com/browse/SLIAO-7831
+        coaching: I am really glad to see you are acting rapidly upon the feedback received. Your Decision History has improved and you are tagging the PSEM and QE Reviewer for clarity and transparency. The QEPA (QE Process Automation) Report shows some quality issues - probably not your fault, I might add - but one is really strange':' "The ticket is in a sprint that is not currently active". Could this be a QEPA bug? I'm asking because I am sure I activated the Sprint early Monday my time zone.
+        perfrormanceAssessment: averagePerformer # source: XO's Rank & Review
+        continueCoaching: true
