@@ -1,0 +1,32 @@
+manager: Carlos Witte
+teamroom: Eng.DevSpacesImport
+direct reports: 4
+ICs:
+    - IC: 
+        IC name: David Popiashvili
+        date: 20191017
+        unit: https://jira.devfactory.com/browse/DVSPIMP-4348
+        coaching: This ticket is blocked due to issues in the build script. I can see David is reporting and tagging the PCA as expected, but our process demands that we open a Eng.Problem ticket or equivalent and, if not resolved within the Eng.Problem SLA time, we close the ticket with the proper explanation. I think it is more important than ever to follow the process strictly because we are getting a lot of broken orders lately with the changes in the Yaml schema. Even though David has other tickets to work on while this issue is resolved, blocked tickets are misleading because they are counted as backlog, but they are not actionable. 
+        perfrormanceAssessment: lowPerformer # source: XO's Rank & Review. Note: David's T4W units decreased due to vacation.
+        continueCoaching: true
+    - IC: 
+        IC name: Pinkal Vansia
+        date: 20191017
+        unit: https://jira.devfactory.com/browse/JCLDALL-36298?focusedCommentId=4652579&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-4652579
+        coaching: There is a warning of medium severity "missing test section". If I understand IPA's (Import Process Automation) workflow correctly, it doesn't check for test commands when the label "noTest" is added, but the label is missing from the ticket. 
+        perfrormanceAssessment: highPerformer # source: XO's Rank & Review
+        continueCoaching: true
+    - IC: 
+        IC name: Rafael Bogaveev
+        date: 20191017
+        unit: https://jira.devfactory.com/browse/SLIAO-7822?focusedCommentId=4658713&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-4658713
+        coaching: Ticket and deliverables' quality are very good, but the Decision History continues to be not very thoughtful and it not adding much value':' "but put some config files and installed some dev tools on docker image" feels a bit lazy.
+        perfrormanceAssessment: averagePerformer # source: XO's Rank & Review
+        continueCoaching: true
+    - IC: 
+        IC name: Stefan Stanca
+        date: 20191017
+        unit: https://jira.devfactory.com/browse/SLIAO-7831?focusedCommentId=4649306&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-4649306
+        coaching: I was discussing with our QE Reviewer Otavio why there is no log for the Feasibility Check - Run IPA stage and we concluded that Stefan did not execute it and we also could not find an explanation why it was not executed. Unless both Otavio and I are missing something, it seems Stefan took a risk in not performing the Feasibility Check in total before delivering this unit. Even though this was not enough to get a rejection from QE (maybe it should), this is not expected. However, if Stefan had a reason to avoid IPA's run stage, it should be explained in the Decision History section. 
+        perfrormanceAssessment: averagePerformer # source: XO's Rank & Review
+        continueCoaching: true

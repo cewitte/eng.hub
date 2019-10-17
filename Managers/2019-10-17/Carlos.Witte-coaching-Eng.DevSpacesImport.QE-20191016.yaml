@@ -1,0 +1,11 @@
+manager: Carlos Witte
+teamroom: Eng.DevSpacesImport.QE
+direct reports: 1
+ICs: 
+    - IC: 
+        IC name: Otávio Calaça Xavier
+        date: 20191017
+        unit: https://jira.devfactory.com/browse/SLIAO-7923
+        coaching: To add more value to QE's tickets and since they are automatically created, I woud like to discuss with Otavio the possibility of adding useful links to Jira tickets, like':' QE's Playbook, thresholds document and maybe even the GH repositories.  
+        perfrormanceAssessment: averagePerformer # no rank info in R&R
+        continueCoaching: true
