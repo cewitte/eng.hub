@@ -1,0 +1,32 @@
+manager: Carlos Witte
+teamroom: Eng.DevSpacesImport
+direct reports: 4
+ICs:
+    - IC: 
+        IC name: David Popiashvili
+        date: 20191021
+        unit: https://jira.devfactory.com/browse/SLIAO-7876?focusedCommentId=4669528&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-4669528
+        coaching: I thought I would find something on this ticket because it has been moved to Blocked during the import, but I was wrong. It's perfectly clear why the ticket was moved to blocked and decisions afterwards leading to unblock it. I also like that David is reporting Import Order Wizard issues to Yuriy Kostiv in a perfect manner. I'm positively surprised by the quality of this ticket's documentation. Besides, no quality issues found during QE Review.
+        perfrormanceAssessment: lowPerformer # source: XO's Rank & Review. Note: David's T4W units decreased due to vacation.
+        continueCoaching: true
+    - IC: 
+        IC name: Pinkal Vansia
+        date: 20191021
+        unit: https://jira.devfactory.com/browse/XIN-1569
+        coaching: Very, very small issue, but still an issue. Deliverables.zip is linked twice in the ticket. Everything else is top quality.
+        perfrormanceAssessment: highPerformer # source: XO's Rank & Review
+        continueCoaching: true
+    - IC: 
+        IC name: Rafael Bogaveev
+        date: 20191021
+        unit: https://jira.devfactory.com/browse/SCLOOPW-11237
+        coaching: Only positive comments about this one. The "Decision History" section improved 10 fold and it's looking very professional now. No quality review issues and deliverable items are looking perfect. Besides, Rafael understood SchoolLoop Web's priority and he is delivering it accordingly. Great job on this one.
+        perfrormanceAssessment: averagePerformer # source: XO's Rank & Review
+        continueCoaching: true
+    - IC: 
+        IC name: Stefan Stanca
+        date: 20191021
+        unit: https://jira.devfactory.com/browse/SLIAO-7889
+        coaching: It is a simple delivery, but I could not find any issues. "Decision History" looks good and I like the value added of the Navigator being tagged in the comments since it increases transparency of Stefan's decisions. No quality issues during QE Review and deliverable items are looking very good.
+        perfrormanceAssessment: averagePerformer # source: XO's Rank & Review
+        continueCoaching: true

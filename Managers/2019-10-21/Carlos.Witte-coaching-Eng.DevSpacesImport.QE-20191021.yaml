@@ -1,0 +1,11 @@
+manager: Carlos Witte
+teamroom: Eng.DevSpacesImport.QE
+direct reports: 1
+ICs: 
+    - IC: 
+        IC name: Otávio Calaça Xavier
+        date: 20191021
+        unit: https://jira.devfactory.com/secure/RapidBoard.jspa?rapidView=2352&quickFilter=14523
+        coaching: I'm seeing 8 tickets standing in QE Review during the afternoon while Otavio is offline. I need to say that Otavio is performing an excellent work and this small delay won't cause the tickets to be delayed until next week, but having said that, it's everyone's expectation to have the tickets approved or rejected almost immediately when moved to QE Review since the process has a high degree of automation. Besides, we are reporting progress to SVP level daily and this small delay might be the difference between showing and not showing progress between today and tomorrow. Ideally, we shoud show a small progress everyday instead of huge drops in our backlog once or twice during the week as we've been doing.
+        perfrormanceAssessment: averagePerformer # no rank info in R&R
+        continueCoaching: true
