@@ -1,0 +1,32 @@
+manager: Carlos Witte
+teamroom: Eng.DevSpacesImport
+direct reports: 4
+ICs:
+    - IC: 
+        IC name: David Popiashvili
+        date: 20191018
+        unit: https://jira.devfactory.com/browse/SCLOOPW-10088?focusedCommentId=4702603&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-4702603
+        coaching: Even though it is true we didn't receive feedback IN the ticket, the closure statement could be enriched. There were chat conversations regarding this issue, where the PSEM clearly states his PCA would not be able to fix the scripts before mid November, thus long passed the deadline for SchoolLoop. There is also no feedback on Otavio's comments suggesting a fix - did it work? We would have to close this ticket anyway because the initial tickets (including this one) have been replaced with new, valid ones, but a year from now this might not be obvious and the impression will be that this ticket was closed by mistake. 
+        perfrormanceAssessment: lowPerformer # source: XO's Rank & Review. Note: David's T4W units decreased due to vacation.
+        continueCoaching: true
+    - IC: 
+        IC name: Pinkal Vansia
+        date: 20191018
+        unit: https://jira.devfactory.com/browse/JCLDALL-36410?focusedCommentId=4613470&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-4613470
+        coaching: Here is another case in which Pinkal could have directly escalated the issue to Yuriy Kostiv to save time and effort from Otavio and me, because Yuriy asked to us to tag him in such cases so he can collect them in a spreadsheet and file a bug report to the Devhub team. It's also unclear what was the action taken about the missing deploy and run sections in the importOrder.yaml. Did Pinkal fix it himself? Did the Navigator replace the yaml? Adding this information would help us understand the impact (of such blockers) in our CpU and find alternatives, besides providing a good ticket documentation.
+        perfrormanceAssessment: highPerformer # source: XO's Rank & Review
+        continueCoaching: true
+    - IC: 
+        IC name: Rafael Bogaveev
+        date: 20191018
+        unit: https://jira.devfactory.com/browse/SCLOOPW-11239
+        coaching: SchoolLoop has to be resolved by next week, we cannot afford to wait too long to resolve blockers. If there's a problem in the scripts or the importOrder.yaml itself, we shouldn't wait and open an Eng.Problem ticket immediately. Let's follow the process in our Playbook to the letter.
+        perfrormanceAssessment: averagePerformer # source: XO's Rank & Review
+        continueCoaching: true
+    - IC: 
+        IC name: Stefan Stanca
+        date: 20191018
+        unit: https://jira.devfactory.com/browse/SLIAO-7892
+        coaching: It's clear that Stefan has used the feedback from previous days to improve the quality of his tickets' documentation. I've checked 5 units delivered this week and they are nearly perfect. A suggestion, though, is adopting a practice that his colleague Pinkal has started - when the ticket is being moved to done, tagging the Navigator in the comments stating "this is done". Not absolutely necessary and not mandated by our process, but any improvement that increases transparency and/or documentation is welcome. Any other ideas are also welcome.
+        perfrormanceAssessment: averagePerformer # source: XO's Rank & Review
+        continueCoaching: true

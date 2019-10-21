@@ -1,0 +1,11 @@
+manager: Carlos Witte
+teamroom: Eng.DevSpacesImport.QE
+units: 
+    - unit: https://jira.devfactory.com/issues/?filter=94040
+automation: 
+    product agnostic: true
+    product specific: 
+        - product name: null
+    description: We are in doubt about the team's inputs in our current TMS exercise. All of our CAs said that the DURATION of an import is 1 day or more, but our productivity is already higher than that with 7 or more weekly units per CA. This can only be justified by parallelism, that is, they are working in more than one ticket at once, which is quite reasonable given the fact that the process has a high degree of automation. To resolve the doubt and have precise measurements of our process time, I'm asking my QE CA, Otávio Calaça Xavier, to get the actual duration of each Jira state so we can measure how many tickets our CAs are handling in parallel and what is the time spent in each Jira state. The data will be obtained via Jira REST APIs and made available in a Google Spreadsheet from which we can create formulas and pivot tables to analyze the data. This should be ready in the next 2 weeks (duration) of partial dedication to this task. 
+    effort: 5 # 5 days of effort distributed along 2.5 weeks
+    impact: This will help us remove inneficiencies based on actual data instead of guesstimates. Besides, we want to reach 10 weekly units x CA yet in this quarter, which means we have only a few hours to complete an import and any mistakes and unnecessary wastes will represent considerable impacts.
