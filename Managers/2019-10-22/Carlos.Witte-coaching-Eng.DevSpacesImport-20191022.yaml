@@ -1,0 +1,32 @@
+manager: Carlos Witte
+teamroom: Eng.DevSpacesImport
+direct reports: 4
+ICs:
+    - IC: 
+        IC name: David Popiashvili
+        date: 20191022
+        unit: https://jira.devfactory.com/secure/RapidBoard.jspa?rapidView=2352&quickFilter=14523
+        coaching: I am linking this feedback to our DVSP Import Week 43 Sprint because I'm seeing 3 of David's SchoolLoop tickets waiting in Backlog at the moment, while 3 are waiting in QE Review and 2 In Progress. What worries me the most are the ones remaining in Backlog. If David starts them late in the week, there's more risk of PCAs unavailable to merge the Pull Request or fix IQB issues. Since David is the most experienced CA in the team, I would like to suggest an experiment, which is increasing the number of orders David works in parallel, that is, his multitasking. My assumption is that David might get them all to DevSpace Delivery Jira State by Wednesday and have the Pull Requests merged altogether before Thursday. I think it will be easy to get PCA's attention with 6-8 pending Pull Request than requesting his attention every couple of days to review 2 Pull Requests. Last minute note':' I'm suggesting David to take a look at today's Stefan coaching below.
+        perfrormanceAssessment: lowPerformer # source: XO's Rank & Review. Note: David's T4W units decreased due to vacation.
+        continueCoaching: true
+    - IC: 
+        IC name: Pinkal Vansia
+        date: 20191022
+        unit: https://jira.devfactory.com/browse/TBGTM-7170?focusedCommentId=4668027&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-4668027
+        coaching: Excellent report on infeasibility for DevSpaces and issue was perfectly escalated to stakeholders like Yuriy Kostiv who took an action upon it':' "To setup DevSpaces, we need steps/scripts to install/build/run the application in Docker container. Installation script in this order uses ansible-playbook to create an AWS EC2 instance and install an FTP server on it. This does not satisfy the requirement for DevSpaces creation. Hence I am rejecting this ticket." This ticket is from last week, but I would like to take the opportunity to raise an issue about the 4 new Tradebeam GTM tickets received and still pending in Backlog. Someone, maybe Jaime, reported in the Import progress spreadsheet that GTM as "already done", but then we started receiving new GTM tickets last week. I didn't bother changing the spreadsheet, because Pinkal has been telling me that they all seem to suffer from the same problem, thus he is closing them all. If I reported this on the spreadsheet, it would pass the wrong message, as if we are very productive, which is not true since we are only closing tickets for an incompatible product (?). This is something that we should clarify sooner than later and close the new tickets - if that's the case - asap. On the other hand, if they are feasible, I need to update the spreadsheet accordingly. Let's clarify this.
+        perfrormanceAssessment: highPerformer # source: XO's Rank & Review
+        continueCoaching: true
+    - IC: 
+        IC name: Rafael Bogaveev
+        date: 20191022
+        unit: https://jira.devfactory.com/browse/SLIAO-7886?focusedCommentId=4768740&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-4768740
+        coaching: I've checked 5 of Rafael's tickets delivered this week and he is making my life harder (in a goood way). I checked the deliverable items and ticket documentation and I could not find a single issue to provide feedback, except for some really minor grammar issues in the unit linked. Other than that, all good and I actually like that Rafael is giving transparency to the dummy shell scripts that PCAs are using to make repositories feasible for the Import Order Wizard.
+        perfrormanceAssessment: averagePerformer # source: XO's Rank & Review
+        continueCoaching: true
+    - IC: 
+        IC name: Stefan Stanca
+        date: 20191022
+        unit: https://jira.devfactory.com/issues/?filter=97839
+        coaching: Stefan is not delivering the highest number of units this week, but he is certainly the CA who is delivering them faster. By checking his first 5 units delivered (all of them SLI tickets), I realize that Stefan is transitioning them in Jira almost at the same time, which is compatible with his statement on the last TMS exercise that he can do up to 7 units (roughly) at the same time - depending on order complexity, of course -, while other CAs are doing 2 or 3 simultaneously. Stefan's approach is clearly shrinking the import time, in a sense that he delivers more units in less time. I have to also mention that I assigned two SchoolLoop tickets to Stefan earlier today and they are already close to delivery state (DevSpace Delivery in Jira), just missing the Pull Request merge by the PCA. Outstanding performance. I'll give the next SchoolLoop tickets we are about to receive to Stefan and measure if he can maintain the superior performance when compared to other CAs with the same product.
+        perfrormanceAssessment: averagePerformer # source: XO's Rank & Review
+        continueCoaching: true

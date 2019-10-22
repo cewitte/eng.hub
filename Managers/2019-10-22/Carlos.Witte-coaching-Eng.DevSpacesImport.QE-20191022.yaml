@@ -1,0 +1,11 @@
+manager: Carlos Witte
+teamroom: Eng.DevSpacesImport.QE
+direct reports: 1
+ICs: 
+    - IC: 
+        IC name: Otávio Calaça Xavier
+        date: 20191022
+        unit: https://jira.devfactory.com/browse/SCLOOPW-11118?focusedCommentId=4699616&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-4699616
+        coaching: We are always looking to document our imports in the tickets in a way that if we revisit this ticket a year from now, we can still clearly understand the decisions and actions taken. With this goal in mind, the sentence "I'm transitioning this ticket because Rifat Shahnewaz has no permission to do that." is not clear. Transitioning from what state to what state? Why is that necessary? That being said, it is a minor issue. Otavio did a favor for Rifat and for his DevSpaces import colleagues in a moment where we were looking for backlog, thus Otavio should not take any blame for anything missing. Anyways, if we have to repeat this task, let's improve by adding more context information. 
+        perfrormanceAssessment: averagePerformer # no rank info in R&R
+        continueCoaching: true
