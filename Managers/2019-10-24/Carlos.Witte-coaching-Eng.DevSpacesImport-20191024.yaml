@@ -1,0 +1,32 @@
+manager: Carlos Witte
+teamroom: Eng.DevSpacesImport
+direct reports: 4
+ICs:
+    - IC: 
+        IC name: David Popiashvili
+        date: 20191024
+        unit: https://jira.devfactory.com/browse/SCLOOPW-10088?focusedCommentId=4795069&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-4795069
+        coaching: David's ticket documentation has been improving a lot lately, but the comment from Yuriy Kostiv referred in the unit link above is a gift to us. I like it because it clearly shows why we need to do better on ticket documentation. A perfect ticket documentation would make those questions and bullet points added by Yuriy unnecessary. We could respond with a "RTFM" type of response instead of people like Otavio and I having to intervene. That being said, I understand the time constraints and the metrics priority, but if we improve 1% a day, we will be close to perfection within a quarter.
+        perfrormanceAssessment: lowPerformer # source: XO's Rank & Review. Note: David's T4W units decreased due to vacation.
+        continueCoaching: true
+    - IC: 
+        IC name: Pinkal Vansia
+        date: 20191024
+        unit: https://jira.devfactory.com/browse/JCLDALL-37132?focusedCommentId=4751848&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-4751848
+        coaching: Pinkal did a great job in documenting why this ticket has been moved to Blocked state in our Jira workflow. The next step in our documentation improvement - as recommended to Pinkal in our daily Check-In Chat today - is adding follow-up comments, for instance':' Pinkal told me that the next big DevSpaces release will happen soon, but it will not bring support to private registries and that there is no ETA for such. Follow-up comments are important because Yuriy expects us to keep the tickets in blocked state indefinitely (to avoid rework on the Import side) and documenting the process properly will help us draw the line. If we have to close the ticket, it should come at no surprise to stakeholders because they will be able to understand the effort without asking (not necessary to tag Yuriy all the time, though). I would recommend Pinkal to read David's coaching for today above and also his unit's link, because it is valid for the whole team and not just David.
+        perfrormanceAssessment: highPerformer # source: XO's Rank & Review
+        continueCoaching: true
+    - IC: 
+        IC name: Rafael Bogaveev
+        date: 20191024
+        unit: https://jira.devfactory.com/issues/?filter=90707&jql=project%20!%3D%20%22DVSP%20Import%20Stage%22%20AND%20issuetype%20%3D%20DSImportOrder%20AND%20(labels%20!%3D%20delete-me%20OR%20labels%20is%20EMPTY)%20AND%20Sprint%20in%20(4365%2C%204448%2C%204449%2C%204464%2C%204465%2C%204466%2C%204515%2C%204516%2C%204517%2C%204518%2C%204519%2C%204520%2C%204521)%20AND%20project%20in%20(BEC%2C%20XINET%2C%20OSCMENT%2C%20NORTHP%2C%20JCM%2C%20JCLDALL%2C%20KNOV%2C%20VERD%2C%20COTRAC%2C%20SARAT%2C%20TBGTM%2C%20SUPSOFTC%2C%20SUPSOFTA%2C%20ONYX%2C%20SUPSOFT%2C%20PIVOTAL%2C%20PIVAPP%2C%20PIVOTAL59%2C%20SLIAO%2C%20SLISEARCH%2C%20SLIFRONT%2C%20SCLOOPM%2C%20SCLOOPW%2C%20CODEALIKE%2C%20XIN%2C%20ONESPOT)%20AND%20status%20not%20in%20(Closed%2C%20Done)%20AND%20assignee%20%3D%20rbogaveev%20AND%20Sprint%20%3D%204466
+        coaching: Rafael will have the goal of 10 units per week for the first time on week 45. All of these tickets are for the high priority Jive Cloud All, and we know for a fact that the lack of private registries support in DevSpaces is blocking some of our tickets (4 of Pinkal's tickets to be exact) and this could delay Rafael in a week that he is expected to complete 2 tickets a day. I can see Rafael has already made some progress in the tickets, which is good, but at the same time some of the scripts are failing. With such tangible risks in the horizon, it's important that Rafael gets a clear picture of what can be delivered, be moved to Blocked or Closed before week 45 starts. Rafael should also remember that Yuriy Kostiv now expects us to keep the tickets in Blocked state for as long as possible (to avoid rework on their part), which means that if Rafael thinks he has enough reasons to close them, he has to make those reasons perfectly clear in the comments. To get a glimpse of what I mean, I encourage Rafael to read David's coaching and his unit's link above.
+        perfrormanceAssessment: averagePerformer # source: XO's Rank & Review
+        continueCoaching: true
+    - IC: 
+        IC name: Stefan Stanca
+        date: 20191024
+        unit: https://jira.devfactory.com/issues/?jql=project+%21%3D+%22DVSP+Import+Stage%22+AND+issuetype+%3D+DSImportOrder+AND+%28labels+is+EMPTY+OR+labels+%21%3D+delete-me%29+AND+project+in+%28BEC%2C+XINET%2C+OSCMENT%2C+NORTHP%2C+JCM%2C+JCLDALL%2C+KNOV%2C+VERD%2C+COTRAC%2C+SARAT%2C+TBGTM%2C+SUPSOFTC%2C+SUPSOFTA%2C+ONYX%2C+SUPSOFT%2C+PIVOTAL%2C+PIVAPP%2C+PIVOTAL59%2C+SLIAO%2C+SLISEARCH%2C+SLIFRONT%2C+SCLOOPM%2C+SCLOOPW%2C+CODEALIKE%2C+XIN%2C+ONESPOT%29+AND+status+not+in+%28Closed%2C+Done%29+AND+resolution+%3D+Unresolved+AND+assignee+is+EMPTY
+        coaching: I'm leaving Stefan in the acting manager position while I'm on vacation with 28 unassigned tickets on purpose, so he will have more margin of manover if something goes wrong, like deffective inputs in the fresh tickets. However, all the priorities with ETAs - SchoolLoop Web, Jive Cloud All and SLI Search and Indexing, in that order - have been assigned to our CAs and scheduled in the proper Sprints so they can be completed by week 46 (November 15th). Everything else should come later than those unless otherwised noted. Jaime will give Stefan feedback from the Import progress meetings. I also encourage Stefan to read David's coaching and his unit's link above, because the comments are valid for the whole team.
+        perfrormanceAssessment: averagePerformer # source: XO's Rank & Review
+        continueCoaching: true

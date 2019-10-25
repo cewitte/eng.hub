@@ -1,0 +1,32 @@
+manager: Carlos Witte
+teamroom: Eng.DevSpacesImport
+direct reports: 4
+ICs:
+    - IC: 
+        IC name: David Popiashvili
+        date: 20191023
+        unit: https://jira.devfactory.com/browse/SCLOOPW-11230
+        coaching: First of all, I should mention that David and his colleagues did a great job on completing the SchoolLoop tickets in record time. That being said, I would just like to ask David to check on the escalations done to Yuriy Kostiv like the one linked above. The escalations were done correctly, but in some cases Yuriy is asking for more information to report to the Devhub team and hopefully improve the Import Order Wizard's Feasibility Check. Let's respond as quick as possible not only because Yuriy is willing to help us, but also because it will make our Jira transitioning quicker.
+        perfrormanceAssessment: lowPerformer # source: XO's Rank & Review. Note: David's T4W units decreased due to vacation.
+        continueCoaching: true
+    - IC: 
+        IC name: Pinkal Vansia
+        date: 20191023
+        unit: https://jira.devfactory.com/issues/?filter=97779
+        coaching: First of all, I should mention that Pinkal and his colleagues did a great job on completing the SchoolLoop tickets in record time. That being said, I've rearranged the backlog so we can finish the current unresolved Jive tickets on November 15th as promised to Product's SVP, but we still have 4 Jives that remain blocked and not set to a Sprint (as it is supposed to be). However, we should not wait any longer to resolve these blockers. If the issues are beyond our control and Eng.Problem tickets have long passed the SLA limit, we better reject (Close) them asap so Product and Devhub teams are aware of it as early as possible.
+        perfrormanceAssessment: highPerformer # source: XO's Rank & Review
+        continueCoaching: true
+    - IC: 
+        IC name: Rafael Bogaveev
+        date: 20191023
+        unit: https://jira.devfactory.com/browse/SCLOOPW-11459
+        coaching: First of all, I should mention that Rafael and his colleagues did a great job on completing the SchoolLoop tickets in record time. That being said, I would like to remind Rafael that our highest priority at the moment is SchoolLoop Web and this one ticket should be delivered next week as early as possible.
+        perfrormanceAssessment: averagePerformer # source: XO's Rank & Review
+        continueCoaching: true
+    - IC: 
+        IC name: Stefan Stanca
+        date: 20191023
+        unit: https://jira.devfactory.com/issues/?filter=97780
+        coaching: First of all, I should mention that Stefan and his colleagues did a great job on completing the SchoolLoop tickets in record time. That being said, this SEM will be OoO from October 25th through November 3rd and Stefan will be the acting manager during this period while still having to deliver his own tickets. We are still waiting for 8 or 9 SchoolLoop Web tickets and we are hoping they will arrive yet on this week or  early next week at the latest to let us fulfill our ETA. With that in mind, I'm leaving Stefan with less tickets and a loose plan so he can adapt to the situation at hand, which might force him to set the new SchoolLoops to himself to make sure they get done in time. With that freedom comes a great responsibility, which is making sure we are on track to':' 1) Complete SchoolLoop Web until the end of October. 2) Complete "Jive Cloud All" and "SLI Search and Indexing" until November 15th. The plan is already set in Jira, but it is a tight plan, if Stefan let's it deviate from its path, we won't be able to fulfill it.
+        perfrormanceAssessment: averagePerformer # source: XO's Rank & Review
+        continueCoaching: true

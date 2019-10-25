@@ -1,0 +1,13 @@
+manager: Carlos Witte
+teamroom: Eng.DevSpacesImport
+units: 
+    - unit: https://jira.devfactory.com/issues/?filter=94041
+recomnmendation: 
+    eliminate waste: true 
+    improve quality bar: false 
+    product agnostic: true
+    product specific: 
+        - product name: null 
+    description: We not using Jira's priorities - Showstopper, High, Medium and Low - in our tickets. I think we can start using them to let our ICs decide which is the next task (ticket) to take when the SEM in unavailable (e.g. on vacation or more frequently due to time zone issues). This SEM will put this in practice when back from vacation on week 45. This has the potential to improve decision making agility and make it less SEM dependent.
+    effort: 1 # less than 1 day
+    impact: 1.00 # 1%

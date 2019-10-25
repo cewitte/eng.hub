@@ -1,0 +1,11 @@
+manager: Carlos Witte
+teamroom: Eng.DevSpacesImport.QE
+direct reports: 1
+ICs: 
+    - IC: 
+        IC name: Otávio Calaça Xavier
+        date: 20191023
+        unit: https://jira.devfactory.com/browse/SCLOOPW-11558?filter=94040
+        coaching: First of all, we have to recognize Otavio's efforts to make sure the SchoolLoops tickets passed the QE workflow without delays and not compromising quality. I would also like to recognize Otavio to put his bash scripting knowledge to help his colleagues in Import with the issues found in some build/test/run scripts. That being said, I'm asking Otavio to get prepared for bigger challenges ahead':' Import will be raising the weekly units soon pushing for 8, 9 and then 10 tickets x CA x week through DevSpaces' pipeline, but he has to have in mind that every weekly unit increased by an Import IC means 4 new units to QE, thus he is better be prepared. One important thing is making sure that tickets will arrive gradually instead of all at once, which would overload him too much and cause delays. I'm suggesting that Otavio should make arrangements with Import's ICs to avoid such issues.
+        perfrormanceAssessment: topPerformer # no rank info in R&R
+        continueCoaching: true

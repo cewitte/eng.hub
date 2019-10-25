@@ -1,0 +1,11 @@
+manager: Carlos Witte
+teamroom: Eng.DevSpacesImport.QE
+direct reports: 1
+ICs: 
+    - IC: 
+        IC name: Otávio Calaça Xavier
+        date: 20191024
+        unit: https://jira.devfactory.com/browse/SCLOOPW-10088?focusedCommentId=4796713&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-4796713
+        coaching: I really appreciate the fact that Otavio stepped out and responded Yuriy Kostiv's questions proactively. In fact, one of the things that are really impressing me is Otavio's outstanding proactivity. That's a top performer's attitude':' take responsibility, be proactive and that's exactly what Otavio is doing. That being said, my 2 cents':' it's true we are trying to automate everything, but Otavio is double checking pretty much every automated review to make sure we have no false positives or negatives. Since he is doing that already and he probably knows more than I do about those pesky technical issues that the import has been through, I encourage Otavio to add his own comments asking the CAs about any missing important decision or action taken, at least until it becomes natural or when we are able to fully automate QE reviews without double checking.
+        perfrormanceAssessment: averagePerformer # no rank info in R&R
+        continueCoaching: true
