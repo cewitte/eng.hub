@@ -1,0 +1,32 @@
+manager: Carlos Witte
+teamroom: Eng.DevSpacesImport
+direct reports: 4
+ICs:
+    - IC: 
+        IC name: David Popiashvili
+        date: 20191105
+        unit: https://jira.devfactory.com/browse/SLIAO-8031?focusedCommentId=4899754&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-4899754
+        coaching: Even though we got a green light for auto-merging our pull requests, we haven't standardized yet the way we communicate that on the ticket. It's not David's or anyone else's fault, but each CA is doing this differently. Hence, I'm asking David to standardize that and add this line to the decision history section in his tickets':' "Pull Request review has been delegated to QE Reviewer Otávio Calaça Xavier" (taggig Otavio, of course). As per our discussion in the last Weekly Productivity Meeting, we should not tag the PCA when we state this fact, because this might scare the PCA (specially the new PCAs) and block our delivery for no reason. Let's leave this explanation to our Playbook.
+        perfrormanceAssessment: lowPerformer # source: XO's Rank & Review. Note: David's T4W units decreased due to vacation, but he is recovering. He is already listed in R&R as the "biggest gainer" with a 43% increase.
+        continueCoaching: true
+    - IC: 
+        IC name: Pinkal Vansia
+        date: 20191105
+        unit: https://jira.devfactory.com/browse/TBGTM-7273?focusedCommentId=4793353&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-4793353
+        coaching: We received the green light to close tickets not passing our IQB, but this seems to create a lot of rework on the Import side when we do it (as stated by Yuriy Kostiv multiple times and exemplified in the link above). Thus, before we close a ticket, let's tag Yuriy Kostiv explaining the situation and giving two business days for any comments or further actions before closing the ticket. I'll also create a process improvement from this coaching to make it a common practice accross the team. Please allow me to emphasize that closing tickets suposedly prematurely is not Pinkal's fault, he has been following the Playbook to the letter.
+        perfrormanceAssessment: averagePerformer # source: XO's Rank & Review
+        continueCoaching: true
+    - IC: 
+        IC name: Rafael Bogaveev
+        date: 20191105
+        unit: https://jira.devfactory.com/browse/SLIAO-8159?focusedCommentId=4893331&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-4893331
+        coaching: Rafael is making clear in his comments that the pull request review is being delegated to Otavio, but one of our goals is to standardize our process and the CAs are adding this comment in different ways. I think the best place for this comment is the decision history section (as Stefan is doing). Let's also be clear about our concern with quality, stating that QE is doing the pull request review. Therefore, I'm asking Rafael to add the following line to his tickets' decision history section':' "Pull Request review has been delegated to QE Reviewer Otávio Calaça Xavier". Please also note that we should not abbreviate Pull Request, because the word PR alone is not obvious to everyone.
+        perfrormanceAssessment: averagePerformer # source: XO's Rank & Review
+        continueCoaching: true
+    - IC: 
+        IC name: Stefan Stanca
+        date: 20191105
+        unit: https://jira.devfactory.com/browse/SLIAO-8163?focusedCommentId=4873218&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-4873218
+        coaching: I was wondering where to place the comment where we state the Pull Request Review has been delegated to QE and it seems Stefan's suggestion is actually the best place':' the decision history section in the ticket's comments. However, I would just change it a little bit to':' "Pull Request review has been delegated to QE Reviewer Otávio Calaça Xavier". These are small changes, but many times during meetings I was asked about the meaning of "PR" (part of our internal lingo, but not clear to everyone). Besides tagging the PR reviewer to let him know about the delegation, I think it is also important mentioning that the review is going to be performed by QE, which denotes our concern with quality in this action/delegation.
+        perfrormanceAssessment: topPerformer # source: XO's Rank & Review
+        continueCoaching: true

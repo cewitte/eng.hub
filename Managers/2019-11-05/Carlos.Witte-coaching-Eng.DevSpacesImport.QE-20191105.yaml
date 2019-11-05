@@ -1,0 +1,11 @@
+manager: Carlos Witte
+teamroom: Eng.DevSpacesImport.QE
+direct reports: 1
+ICs: 
+    - IC: 
+        IC name: Otávio Calaça Xavier
+        date: 20191105
+        unit: https://github.com/trilogy-group/think3-slw-sloopy/blob/master/devspaces/README.md
+        coaching: It seems we haven't reviewed our templates in a while and the maintenance team is picking small issues in our documentation. I'm asking Otavio to please update the README.md in our templates to':' 1) Make sure that step 6 is clear about the need to run the command inside the container. 2) Let's move the video to a devspaces-import-artifacts GitHub repository (I was not aware that Aurea51 was only for Aureans).
+        perfrormanceAssessment: topPerformer # there is no rank info on R&R because the team has only 1 IC, hence this is my personal evaluation.
+        continueCoaching: true
