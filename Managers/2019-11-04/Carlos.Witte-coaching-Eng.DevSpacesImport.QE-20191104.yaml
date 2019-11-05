@@ -1,0 +1,11 @@
+manager: Carlos Witte
+teamroom: Eng.DevSpacesImport.QE
+direct reports: 1
+ICs: 
+    - IC: 
+        IC name: Otávio Calaça Xavier
+        date: 20191104
+        unit: https://jira.devfactory.com/browse/SCLOOPW-10088?focusedCommentId=4796713&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-4796713
+        coaching: Otavio has been doing an outstanding work in DevSpaces automation and his week 44's units show the outcome of his efforts':' 39 units delivered by DevSpaces Import and 39 units reviewed whithout hassles or delays, thanks to the great automation tools that IPA (Import Process Automation) and QEPA (QE Process Automation) turned out to be, both of them Otavio's creations. Congratulations for that! I'm also glad to see that Otavio enriched QE's tickets with more valuable information and useful links based on past feedback given to him. That being said, I would like to ask Otavio to check today's coaching for the DevSpaces' CAs. Many of the comments were regarging IPA being executed with the result of failure, only to be executed again a few minutes later with the result of success. It's not clear why we have a failure (or many successive failures, like here':' https://jira.devfactory.com/browse/SCLOOPW-11638?focusedCommentId=4811723&page=com.atlassian.jira.plugin.system.issuetabpanels%3Acomment-tabpanel#comment-4811723) followed by a success execution. What changed between those runs? Maybe IPA could give us a hint on what happened and allow the CAs to better document the tickets. I intend to bring that up during our next Check-In Chat.
+        perfrormanceAssessment: topPerformer # there is no rank info on R&R because the team has only 1 IC, hence this is my personal evaluation.
+        continueCoaching: true

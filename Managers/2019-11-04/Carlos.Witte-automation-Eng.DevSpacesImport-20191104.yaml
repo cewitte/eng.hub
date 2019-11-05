@@ -1,0 +1,11 @@
+manager: Carlos Witte
+teamroom: Eng.DevSpacesImport.QE
+units: 
+    - unit: https://jira.devfactory.com/issues/?filter=94040
+automation: 
+    product agnostic: true
+    product specific: 
+        - product name: null
+    description: The tickets assignments to our ICs are still being done manually, which can generate a delay of 8 hours or more between a ticket creation and its assignment to an IC due to time zone issues, SEM availability, etc. With our delivery rate reaching 9-10 units x IC x week, this might start creating serious delays, thus we are willing to implement a smart ticket assignment tool that takes a few things into consideration just as this SEM does, like':' prioritizing the IC with the shortest backlog and the IC who has worked with a similar order (same product or repository). Otavio - our QE CA, responsible for automating our process - will perform and complete this task by November 15th, 2019.
+    effort: 3 # 3 days of effort distributed along 2 weeks
+    impact: This will speed up the decision making, automate the ticket distribution in an evenly manner and remove manual work (for ticket assignments) from the SEM, reducing the dependency from the manager's actions.

@@ -1,0 +1,32 @@
+manager: Carlos Witte
+teamroom: Eng.DevSpacesImport
+direct reports: 4
+ICs:
+    - IC: 
+        IC name: David Popiashvili
+        date: 20191104
+        unit: https://jira.devfactory.com/browse/JCLDALL-38577?focusedCommentId=4853339&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-4853339
+        coaching: I reviewed all 10 of David's deliveries from last week and they are pretty good, except for the fact that all of them have the same comments in the decision section of the tickets (linked above). I'm not saying this is wrong and at 2 imports per day I understand we have to be very objective and concise, then this is more of a question than a feedback':' didn't any of David's last week deliveries required a contact with the PCA or some other relevant information to be mentioned in the decision section comments? Let's remember our goal, which is use the ticket to document the import process in a way that if some external stakeholder reads this ticket a year from now, he will understand what happened during the import without having to ask. The ticket should be the import's knowledge base, the reference for any inquire. 
+        perfrormanceAssessment: lowPerformer # source: XO's Rank & Review. Note: David's T4W units decreased due to vacation, but he is recovering. He is already listed in R&R as the "biggest gainer" with a 43% increase.
+        continueCoaching: true
+    - IC: 
+        IC name: Pinkal Vansia
+        date: 20191104
+        unit: https://jira.devfactory.com/browse/JCLDALL-29602?focusedCommentId=4698017&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-4698017
+        coaching: Pinkal's tickets documentation are generally role models for the team, thus it is very hard to find something to be improved, but here is one case when I wear the external stakeholder hat. In the link above I can see IPA (our Import Process Automation) runs and the result is "failure", but in the next comment three minutes later IPA runs again and the result is success. What changed in these 3 minutes? If it was an IPA failure, it is worth mentioning it. If it was an issue with the importOrder.yaml, it is also worth mentioning. I don't want to waste anyone's time, but 2 lines would make a lot of difference to let us understand what happend and improved our learnings about common issues in the process.
+        perfrormanceAssessment: averagePerformer # source: XO's Rank & Review
+        continueCoaching: true
+    - IC: 
+        IC name: Rafael Bogaveev
+        date: 20191104
+        unit: https://jira.devfactory.com/browse/SLIAO-8015?focusedCommentId=4781359&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-4781359
+        coaching: Rafael's comments in the decision section in the ticket continues to improve, which is awesome. However, the same comment that goes to Pinkal above goes to Rafael as well. In he link above, we can see IPA (Import Process Automation) runs the first time and the result is failure. A few hours later, IPA is executed again and the result is success. What changed in between? Did Rafael have to fix something? Is it IPA? The importOrder.yaml? We have to do our best to explain each and every action in a way that adds value without delaying us much.
+        perfrormanceAssessment: averagePerformer # source: XO's Rank & Review
+        continueCoaching: true
+    - IC: 
+        IC name: Stefan Stanca
+        date: 20191104
+        unit: https://jira.devfactory.com/browse/SCLOOPW-11638?focusedCommentId=4811723&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-4811723
+        coaching: First of all, I have to mention that Stefan delivered 10 units last week (2 per day) while temporarily playing the acting manager role and fulfilling my duties while I was out of the office. He even managed to become the top performer this week in Rank & Review. Outstanding! That being said, it seems this week's coaching is going to be about clarifying IPA's success and failure results for everyone, which would make a nice improvement to the ticket documentation for the whole team. In Stefan's case (firt IPA execution result linked above) we can see 4 successive failures and then IPA shows a sucess result. Why that happened? If I don't know anything about the process, but I am a stakeholder, I would like to understand the issues found and what changes have been made to obtain success. Even if it is a temporary IPA failure, it would be good to map them to understand how often they happen. At 10 units x CA x week and above, small failures will start affecting our productivity more and more.
+        perfrormanceAssessment: topPerformer # source: XO's Rank & Review
+        continueCoaching: true

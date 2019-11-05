@@ -1,0 +1,13 @@
+manager: Carlos Witte
+teamroom: Eng.DevSpacesImport
+units: 
+    - unit: https://jira.devfactory.com/issues/?filter=94041
+recomnmendation: 
+    eliminate waste: true 
+    improve quality bar: false 
+    product agnostic: true
+    product specific: 
+        - product name: null 
+    description: With the clearance for auto-merging our pull requests, we need to specify in the Playbook how to make this properly. Even though there is very little risk to the Products in our pull requests (if any), we should be careful and make this properly':' 1) The assignee (CA) who is delivering the order should not merge his own pull request; rather, the QE Reviewer should do it during the QE Review (whether automated or not). 2) The PCA should have the option to opt-out the auto-merge via a written request in the ticket's comments, clearly stating his or her reasons. 3) When QE merges the Pull Request, it has to be clearly stated in the ticket's comments who did it and when (not everyone has access to the repositories to get this information). 4) We have to update our Playbook to make the changes perfectly clear to our internal customers. This SEM (Carlos Witte) will update DevSpaces Import's Playbook by the end of week 45, 2019.
+    effort: 1 # less than 1 day to update DevSpaces Import's Playbook.
+    impact: 29.44 # 29.44% of reduction in the devspaces import time, equivalent to 242 minutes on average.
