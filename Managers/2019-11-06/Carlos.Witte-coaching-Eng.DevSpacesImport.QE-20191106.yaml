@@ -1,0 +1,11 @@
+manager: Carlos Witte
+teamroom: Eng.DevSpacesImport.QE
+direct reports: 1
+ICs: 
+    - IC: 
+        IC name: Otávio Calaça Xavier
+        date: 20191106
+        unit: https://github.com/trilogy-group/think3-sli-ape-job-algorithm-common/blob/master/devspaces/README.md
+        coaching: I'm asking Otavio to double check whether IPA (our automation tool) is already creating README.md files with the new template that is more clear about the need to execute steps 6 and 7 inside the container. Not all team members are aware of the change, so I'm also asking Otavio to communicate it properly to the team.
+        perfrormanceAssessment: topPerformer # there is no rank info on R&R because the team has only 1 IC, hence this is my personal evaluation.
+        continueCoaching: true
